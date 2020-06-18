@@ -1,0 +1,38 @@
+{
+  "name": "nodemailer-express-handlebars-plaintext-inline-ccs",
+  "version": "1.0.0",
+  "description": "A plugin for nodemailer that uses express-handlebars view engine to generate emails, plain text and inline CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oskaraqp/nodemailer-express-handlebars-plaintext-inline-ccs"
+  },
+  "keywords": [
+    "nodemailer",
+    "html",
+    "inlinecss",
+    "plaintext",
+    "express-handlebars",
+    "handlebars"
+  ],
+  "author": "Oscar Arotaype H. <oskaraqp@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oskaraqp/nodemailer-express-handlebars-plaintext-inline-ccs/issues"
+  },
+  "homepage": "https://github.com/oskaraqp/nodemailer-express-handlebars-plaintext-inline-ccs#readme",
+  "devDependencies": {
+    "standard": "^14.3.4"
+  },
+  "dependencies": {
+    "express-handlebars": "^4.0.4",
+    "html-to-text": "^5.1.1",
+    "juice": "^6.0.0"
+  },
+  "directories": {
+    "lib": "lib"
+  }
+}
