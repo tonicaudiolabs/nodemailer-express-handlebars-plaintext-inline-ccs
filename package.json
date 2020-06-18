@@ -1,15 +1,12 @@
 {
   "name": "nodemailer-express-handlebars-plaintext-inline-ccs",
-  "version": "1.0.0",
-  "description": "A plugin for nodemailer that uses express-handlebars view engine to generate emails, plain text and inline CSS",
+  "version": "0.9.0",
+  "description": "A plugin for nodemailer that uses express-handlebars view engine to generate emails, generates the plain text extracting the data from the HTML returned by the handlebars compiler and also injects the CSS inside <script> tags inside the HTML tags",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/oskaraqp/nodemailer-express-handlebars-plaintext-inline-ccs"
-  },
+  "repository": "https://github.com/oskaraqp/nodemailer-express-handlebars-plaintext-inline-ccs",
   "keywords": [
     "nodemailer",
     "html",
@@ -34,5 +31,6 @@
   },
   "directories": {
     "lib": "lib"
-  }
+  },
+  "private": null
 }

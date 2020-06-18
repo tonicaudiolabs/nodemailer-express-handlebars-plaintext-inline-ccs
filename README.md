@@ -5,8 +5,8 @@ This package is inspired by __[nodemailer-express-handlebars](https://github.com
 
 This plugin works with nodemailer 6.x. It uses the next packages :
 * __[express-handlebars](https://github.com/ericf/express-handlebars)__ view engine to generate html emails.
-* __[html-to-text] (https://www.npmjs.com/package/html-to-text)__ converter to generate text from the HTML returned by the view engine 
-* __[juice] (https://www.npmjs.com/package/html-to-text)__ converter to generate text from the HTML returned by the view engine 
+* __[html-to-text](https://www.npmjs.com/package/html-to-text)__ converter to generate text from the HTML returned by the view engine 
+* __[juice](https://www.npmjs.com/package/html-to-text)__ converter to generate text from the HTML returned by the view engine 
 
 # Install from npm
 ```bash
