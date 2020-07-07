@@ -152,7 +152,7 @@ The CSS on this file will be converted and included inside the HTML tags (`"<sty
                             <td>
                 <![endif]-->
                 <table class="content" align="center" cellpadding="0" cellspacing="0" border="0" role="presentation">
-                    {{> page/header}} <!-- templates located at emailTemplates\page\header.handlebars -->
+                    {{> page/header}} {{!  template located at emailTemplates\page\header.handlebars }}
                     <tr>
                         <td class='td-container'>
                             <div class='div-container'>
@@ -162,7 +162,7 @@ The CSS on this file will be converted and included inside the HTML tags (`"<sty
                             </div>
                         </td>
                     </tr>
-                    {{> page/signature}} <!-- templates located at emailTemplates\page\signature.handlebars -->
+                    {{> page/signature}} {{!  template located at emailTemplates\page\signature.handlebars }}
                 </table>
                 <!--[if (gte mso 9)|(IE)]>
                         </td>
