@@ -3,6 +3,7 @@
   "version": "0.9.3",
   "description": "A plugin for nodemailer that uses express-handlebars view engine to generate emails, generates the plain text extracting the data from the HTML returned by the handlebars compiler and also injects the CSS inside <script> tags inside the HTML tags",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -32,5 +33,5 @@
   "directories": {
     "lib": "lib"
   },
-  "private": null
+  "private": true
 }
