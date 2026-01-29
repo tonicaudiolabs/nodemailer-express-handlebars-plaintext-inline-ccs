@@ -4,6 +4,9 @@
   "description": "A plugin for nodemailer that uses express-handlebars view engine to generate emails, generates the plain text extracting the data from the HTML returned by the handlebars compiler and also injects the CSS inside <script> tags inside the HTML tags",
   "main": "index.js",
   "type": "module",
+  "exports": {
+    ".": "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
